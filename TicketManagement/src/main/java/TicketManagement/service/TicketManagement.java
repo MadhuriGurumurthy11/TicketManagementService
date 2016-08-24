@@ -76,6 +76,8 @@ public class TicketManagement
 						Optional<Integer> venueLevel = Optional.of(levelId);
 						int seats = tktService.numSeatsAvailable(venueLevel);
 						System.out
+								.println("----------------------------------------------------------");
+						System.out
 								.println(" Available number of seats in level "
 										+ levelId.intValue() + " is " + seats
 										+ ". \n");
@@ -83,7 +85,8 @@ public class TicketManagement
 					{
 						Optional<Integer> noLevel = Optional.empty();
 						int seats = tktService.numSeatsAvailable(noLevel);
-						System.out.println("Total available seats is " + seats);
+						System.out.println("\n Total available seats is "
+								+ seats);
 					}
 				} catch (Exception e)
 				{
@@ -127,7 +130,9 @@ public class TicketManagement
 					SeatHold seatHeld = tktService.findAndHoldSeats(numSeats,
 							minLevel, maxLevel, customerEmail);
 
-					System.out.println("Level is " + seatHeld.getLevelId()
+					System.out
+							.println("----------------------------------------------------------");
+					System.out.println("\n Level is " + seatHeld.getLevelId()
 							+ "\n" + "Row is " + seatHeld.getRowNumber()
 							+ "\n Seat Nos are " + seatHeld.getSeatNumbers());
 					System.out

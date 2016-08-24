@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="TicketManagement.service.TicketValidationImplTest" time="0.2" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="TicketManagement.service.TicketValidationImplTest" time="0.062" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
@@ -20,7 +20,7 @@
     <property name="basedir" value="C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefirebooter8739131478777897379.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefirebooter5277198629307368344.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\Madhuri\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -44,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
-    <property name="sun.java.command" value="C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefirebooter8739131478777897379.jar C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefire8283565082740090142tmp C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefire3025098621981519530tmp"/>
+    <property name="sun.java.command" value="C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefirebooter5277198629307368344.jar C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefire168982015695619480tmp C:\Users\Madhuri\Downloads\GRC\Walmart\NewTry\TicketManagement\target\surefire\surefire1659584048683610714tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,11 +61,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testIsNumSeatsValidNegative" time="0.004"/>
-  <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testValidateEmailNegative" time="0.078"/>
+  <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testIsNumSeatsValidNegative" time="0.003"/>
+  <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testValidateEmailNegative" time="0.006"/>
   <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testIsLevelIdValidPositiveCase1" time="0"/>
   <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testIsLevelIdValidPositiveCase2" time="0"/>
-  <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testValidateEmail" time="0.003"/>
+  <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testValidateEmail" time="0.001"/>
   <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testIsLevelIdValidNegative" time="0.001"/>
   <testcase classname="TicketManagement.service.TicketValidationImplTest" name="testIsNumSeatsValidPositive" time="0"/>
 </testsuite>
