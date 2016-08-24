@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="TicketManagement.dao">
+
+	<class name="LevelInfo" table="LEVEL_INFO">
+		<id name="levelId" column="LEVEL_ID" />
+		<property name="levelName" column="LEVEL_NAME" />
+		<property name="price" column="PRICE" />
+		<property name="rows" column="ROWS" />
+		<property name="seats" column="SEATS" />
+		<property name="totalSeats" column="TOTAL_SEATS" />
+		<property name="totalAvailableSeats" column="TOTAL_AVAILABLE_SEATS" />
+	</class>
+
+</hibernate-mapping>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="TicketManagement.dao">
+
+	<class name="SeatHold" table="RESERVATIONS">
+		<id name="levelId" column="LEVEL_ID" />
+		<property name="seatHoldId" column="SEAT_HOLD_ID" />
+		<property name="rowNumber" column="ROW_NO" />
+		<property name="noOfSeats" column="NO_OF_SEATS" />
+		<property name="seatNumbers" column="SEAT_NO" />
+		<property name="emailId" column="EMAIL" />
+		<property name="status" column="STATUS" />
+		<property name="confirmationCode" column="CONFIRMATION_CODE" />
+	</class>
+
+</hibernate-mapping>
